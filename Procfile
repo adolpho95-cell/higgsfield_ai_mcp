@@ -1,1 +1,1 @@
-web: python -m higgsfield_mcp.server
+web: pip install -e . && python -m higgsfield_mcp.server
